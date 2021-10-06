@@ -1,0 +1,43 @@
+
+/*************TAG SELECTORS*************/
+
+  body{
+    background-color: #EBD4D4;
+    color: #2C061F;
+    font-family: sans-serif ;
+  }
+
+  hr{
+    border-style:dotted none none;
+    border-width:thick;
+    border-color: #382933;
+    width: 3%;
+  }
+
+  h1{
+    color:#411F1F;
+  }
+  h3{
+    color: #411F1F;
+  }
+  img:hover{   /*pseudo-class--hover*/
+    color: gold;  /*color wont be visible coz its a complete image*/
+    border-radius: 100%;
+  }
+
+
+/***********CLASS SELECTORS**************/
+
+.myimage{
+  background-color: red;  /*this change is not seen in the web page because the
+  picture is square and not of a vague shape, covering all the background*/
+}
+
+/*.circular{  used in tag selector coz i have only one image to work with
+  border-radius: 100%;
+}*/
+
+/***************ID SELECTORS***************/
+#heading{
+  font-style: italic;
+}
